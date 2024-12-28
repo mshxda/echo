@@ -1,0 +1,709 @@
+@import url('reset.css');
+@import url('responsive.css');
+
+body {
+    margin: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, auto);
+    gap: 12px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+    max-width: 413px;
+}
+.gif-frame { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame:hover::after { 
+    content: ''; 
+    background: url('../img/v2.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame2 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif2 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame2:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame2:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame3 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif3 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame3:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame3:hover::after { 
+    content: ''; 
+    background: url('../img/о2.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame4 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif4 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame4:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame4:hover::after { 
+    content: ''; 
+    background: url('../img/c2.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame5 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif5 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame5:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame5:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame6 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif6 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame6:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame6:hover::after { 
+    content: ''; 
+    background: url('../img/p1.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame7 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif7 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame7:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame7:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame8 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif8 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame8:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame8:hover::after { 
+    content: ''; 
+    background: url('../img/o4.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame9 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif9 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame9:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame9:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame10 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif10 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame10:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame10:hover::after { 
+    content: ''; 
+    background: url('../img/m2.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame11 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif11 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame11:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame11:hover::after { 
+    content: ''; 
+    background: url('../img/и4.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame12 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif12 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame12:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame12:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame13 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+
+.gif13 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame13:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame13:hover::after { 
+    content: ''; 
+    background: url('../img/н4.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame14 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif14 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame14:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame14:hover::after { 
+    content: ''; 
+    background: url('../img/a2.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame15 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif15 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame15:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame15:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame16 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif16 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame16:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame16:hover::after { 
+    content: ''; 
+    background: url('../img/н1.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame17 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif17 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame17:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame17:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame18 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif18 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame18:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame18:hover::after { 
+    content: ''; 
+    background: url('../img/и2.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame19 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif19 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame19:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame19:hover::after { 
+    content: ''; 
+    background: url('../img/camera.png') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.gif-frame20 { 
+    width: 413px;  
+    height: 413px; 
+    overflow: hidden; 
+    position: relative; 
+} 
+ 
+.gif20 { 
+    width: 100%; 
+    height: 100%; 
+    transition: opacity 0.8s ease; 
+} 
+ 
+.gif-frame20:hover .gif { 
+    opacity: 0; 
+} 
+ 
+.gif-frame20:hover::after { 
+    content: ''; 
+    background: url('../img/я1.gif') no-repeat center center; 
+    background-size: cover; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    opacity: 1; 
+}
+
+.text-overlay {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    margin-left: 10px;
+    animation: scroll-left 10s ease infinite; 
+}
+
+@keyframes scroll-left {    
+    0% { 
+        transform: translateX(-400px); 
+    } 
+    40% { 
+        transform: translateX(0px); 
+    } 
+    60% { 
+        transform: translateX(0px);  
+    } 
+    100% { 
+        transform: translateX(115%);  
+    } 
+} 
+
+@keyframes scroll-left2 {    
+    0% { 
+        transform: translateX(-100%); 
+    } 
+    
+    100% { 
+        transform: translateX(115%);  
+    } 
+} 
+ 
+.gif-container {
+    text-align: center;
+    margin-top: -12px;
+}
+
+.gif-item {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+}
+
+.text-container {
+    animation: scroll-left2 20s linear infinite;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 12px;
+}
+
+.text-block {
+    margin: 0;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.centered-text {
+    text-align: center;
+    flex: 0 0 auto;
+    margin: 0 20px;
+}
+
+.image-block {
+    width: 100px;
+    height: auto;
+}
+
+.text-block:first-child {
+    text-align: left;
+}
+
+.text-block:last-child {
+    text-align: right;
+}
+
+.footer-container{
+    display: flex;
+    align-items: flex-start;
+    background-color: black;
+    padding: 20px;
+    position: relative;
+}
+
+.text-block2 {
+    color: white;
+    margin-right: 435px;
+    margin-left: 190px;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+}
